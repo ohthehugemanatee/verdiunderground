@@ -73,6 +73,10 @@
 		font-size: 0.9rem;
 		font-weight: _font(weight-bold);
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
+
+		span.required {
+			color: red;
+		}
 	}
 
 	input[type="text"],
